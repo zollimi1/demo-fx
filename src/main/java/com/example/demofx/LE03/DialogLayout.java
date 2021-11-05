@@ -39,7 +39,7 @@ public class DialogLayout extends Application {
 
     private Pane createToolbarPane() {
         final HBox hbox = new HBox(5);
-        hbox.setStyle("-fx-border-width: 2;-fx-border-color: red;");
+        hbox.setStyle("-fx-border-width: 2;-fx-border-color: green;");
         hbox.getChildren().addAll(
                 new Text("TOP"), new Button("HBox1"), new Button("HBox2"));
         return hbox;
