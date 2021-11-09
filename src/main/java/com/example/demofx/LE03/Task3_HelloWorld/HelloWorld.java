@@ -1,8 +1,6 @@
-package com.example.demofx.LE03;
+package com.example.demofx.LE03.Task3_HelloWorld;
 
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;

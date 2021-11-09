@@ -1,4 +1,4 @@
-package com.example.demofx.LE03;
+package com.example.demofx.LE03.Task4_DialogLayout;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -14,6 +14,7 @@ import javafx.stage.Stage;
 public class DialogLayout extends Application {
 
     Pane createInputPane() {
+        //Einfügen der Eingabeebene inkl. Dimensionen, Farben, Stärke, Labels
         final GridPane gridPane = new GridPane();
         gridPane.setBorder(
                 new Border(
@@ -24,7 +25,7 @@ public class DialogLayout extends Application {
         gridPane.setGridLinesVisible(true);
         gridPane.setHgap(5);
         gridPane.setVgap(10);
-        final Label label1 = new Label("Label1");
+        final Label label1 = new Label("TestLabel1");
         final TextField textfield1 = new TextField();
         final Label label2 = new Label("Label2");
         final TextField textfield2 = new TextField();
@@ -37,6 +38,7 @@ public class DialogLayout extends Application {
         return gridPane;
     }
 
+    //Einfügen einer Headerleiste inkl. Buttons
     private Pane createToolbarPane() {
         final HBox hbox = new HBox(5);
         hbox.setStyle("-fx-border-width: 2;-fx-border-color: green;");
@@ -45,6 +47,7 @@ public class DialogLayout extends Application {
         return hbox;
     }
 
+    //Einfügen einer Navigationsleiste links
     private Pane createNavigationPane() {
         final VBox vbox = new VBox(5);
         vbox.setStyle("-fx-border-width: 2;-fx-border-color: red;");

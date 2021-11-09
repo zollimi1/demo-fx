@@ -1,5 +1,6 @@
-package com.example.demofx.LE03;
+package com.example.demofx.LE03.Task4_DialogLayout;
 
+import com.example.demofx.LE03.Task4_DialogLayout.DialogLayout;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
